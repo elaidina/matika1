@@ -205,7 +205,7 @@ const quizData = [
     b: "7",
     c: "8",
     d: "9",
-    correct: "b",
+    correct: "c",
   },{
     question: "6+7 =",
     a: "11",
@@ -380,8 +380,8 @@ const quizData = [
                     <label for="d" id="d_text">${question.d}</label>
                   </li>
                   <li>
-                  <h4>Vybral jsi: ${question[quizData[i].correct]}</h4>
-                  <h4>Správná odpověď: ${question[answers[i]]}</h4>
+                  <h4>Správná odpověď: ${question[quizData[i].correct]}</h4>
+                <h4>Vybral jsi: ${question[answers[i]]}</h4>
   
                 
                   </li>
